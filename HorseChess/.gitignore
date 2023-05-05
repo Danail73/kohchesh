@@ -1,4 +1,5 @@
 .idea
  HorseChess/bin
- HorseChess/obj
+ HorseChess/obj/Debug/
+ 
  
