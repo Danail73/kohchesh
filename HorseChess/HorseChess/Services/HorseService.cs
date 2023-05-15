@@ -1,6 +1,6 @@
 namespace HorseChess.Services
 {
-    public class HorseService: HorseServiceInterface
+    public class HorseService: IHorseServiceInterface
     {
         private int[,] chessboard = new int[8, 8];
         private string[] allmoves = new string[64];

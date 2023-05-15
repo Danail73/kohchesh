@@ -1,6 +1,6 @@
 namespace HorseChess.Services
 {
-    public class HorseStaticService : HorseServiceInterface
+    public class HorseStaticService : IHorseServiceInterface
     {
         public string[] GetMoves()
         {

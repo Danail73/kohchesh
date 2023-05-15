@@ -12,7 +12,7 @@ namespace HorseChess.Controllers
         public string[] Get()
         {
             // HorseServiceInterface service = new HorseService();
-            HorseServiceInterface service = new HorseStaticService();
+            IHorseServiceInterface service = new HorseStaticService();
 
             return service.GetMoves();
         }
