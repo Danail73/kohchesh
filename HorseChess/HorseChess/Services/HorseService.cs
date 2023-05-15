@@ -1,4 +1,4 @@
-namespace HorseChess
+namespace HorseChess.Services
 {
     public class HorseService
     {
