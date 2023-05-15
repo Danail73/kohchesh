@@ -11,7 +11,9 @@ namespace HorseChess.Controllers
         [HttpGet(Name = "GetHorseMovement")]
         public string[] Get()
         {
-            HorseService service = new HorseService();
+            // HorseServiceInterface service = new HorseService();
+            HorseServiceInterface service = new HorseStaticService();
+
             return service.GetMoves();
         }
     }
